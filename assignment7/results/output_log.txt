@@ -1,0 +1,26 @@
+Example 1:
+Masses:
+Body 1: Mass = 2, Center of Mass = (1, 1.5)
+Body 2: Mass = 4, Center of Mass = (7, 1)
+
+Contacts:
+Contact 1: Body A = 1, Body B = 0, Contact Point = (1, 0), Normal Angle = 1.57, Friction Coefficient = 0.40
+Contact 2: Body A = 1, Body B = 2, Contact Point = (4, 4), Normal Angle = 0.79, Friction Coefficient = 0.10
+Contact 3: Body A = 2, Body B = 0, Contact Point = (5, 0), Normal Angle = 1.57, Friction Coefficient = 0.40
+Contact 4: Body A = 2, Body B = 0, Contact Point = (9, 0), Normal Angle = 1.57, Friction Coefficient = 0.40
+
+The assembly would collapse.
+----------------------------------------
+Example 2:
+Masses:
+Body 1: Mass = 2, Center of Mass = (1, 1.5)
+Body 2: Mass = 4, Center of Mass = (7, 1)
+
+Contacts:
+Contact 1: Body A = 1, Body B = 0, Contact Point = (1, 0), Normal Angle = 1.57, Friction Coefficient = 0.40
+Contact 2: Body A = 1, Body B = 2, Contact Point = (4, 4), Normal Angle = 0.79, Friction Coefficient = 0.30
+Contact 3: Body A = 2, Body B = 0, Contact Point = (5, 0), Normal Angle = 1.57, Friction Coefficient = 0.40
+Contact 4: Body A = 2, Body B = 0, Contact Point = (9, 0), Normal Angle = 1.57, Friction Coefficient = 0.40
+
+The assembly remains standing.
+----------------------------------------

@@ -1,0 +1,9 @@
+The result of this package is derived from feedforward + PI controller
+
+The feedback gains are:
+kp = 2.25
+ki = 1.75
+
+Cube position are :
+Initial:(x,y,theta)=(1,0,0)
+Goal:(x,y,theta)=(0,-1,-pi/2)
